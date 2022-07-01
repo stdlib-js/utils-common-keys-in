@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-has-property": "^0.0.x",
     "@stdlib/types": "^0.0.x",
-    "@stdlib/utils-keys-in": "^0.0.x"
+    "@stdlib/utils-keys-in": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-empty-array": "^0.0.x",
