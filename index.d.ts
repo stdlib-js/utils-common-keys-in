@@ -18,7 +18,7 @@
 
 // TypeScript Version: 2.0
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 /**
 * Returns the common own and inherited property names of two or more objects.
