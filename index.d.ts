@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,16 +16,19 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 /**
-* Return the common own and inherited property names of two or more objects.
+* Returns the common own and inherited property names of two or more objects.
 *
-* @module @stdlib/utils-common-keys-in
+* @param obj1 - first object
+* @param obj2 - second object
+* @param obj - additional objects
+* @returns common keys
 *
 * @example
-* var commonKeysIn = require( '@stdlib/utils-common-keys-in' );
-*
 * var obj = {
 *     'a': 1,
 *     'b': 2,
@@ -39,13 +42,29 @@
 *
 * var keys = commonKeysIn( obj, obj2 );
 * // returns [ 'a', 'b' ]
+*
+* @example
+* var obj1 = {
+*     'a': 1,
+*     'b': 2,
+*     'c': 3
+* };
+*
+* var obj2 = {
+*     'a': 1,
+*     'b': 2
+* };
+*
+* var obj3 = {
+*     'a': 1,
+* };
+*
+* var keys = commonKeysIn( obj1, obj2, obj3 );
+* // returns [ 'a' ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function commonKeysIn( obj1: any, obj2: any, ...obj: Array<any> ): Array<string>; // tslint:disable-line:max-line-length
 
 
 // EXPORTS //
 
-module.exports = main;
+export = commonKeysIn;
