@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-common-keys-in/tags). For example,
+
+```javascript
 import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@v0.1.0-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ var keys = commonKeysIn( obj, obj2 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@v0.1.0-deno/mod.js';
+import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@deno/mod.js';
 
 function Foo() {
     this.beep = 'boop';
