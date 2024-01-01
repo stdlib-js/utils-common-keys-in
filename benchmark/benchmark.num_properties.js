@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var pow = require( '@stdlib/math-base-special-pow' );
 var isStringArray = require( '@stdlib/assert-is-string-array' ).primitives;
 var isEmptyArray = require( '@stdlib/assert-is-empty-array' );
