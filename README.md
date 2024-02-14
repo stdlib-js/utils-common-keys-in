@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-common-keys-in/tags). For example,
+
+```javascript
 import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@v0.2.0-esm/index.mjs';
 ```
 
@@ -101,7 +106,7 @@ var keys = commonKeysIn( obj, obj2 );
 <body>
 <script type="module">
 
-import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@v0.2.0-esm/index.mjs';
+import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@esm/index.mjs';
 
 function Foo() {
     this.beep = 'boop';
