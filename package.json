@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-common-keys-in",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Return the common own and inherited property names of two or more objects.",
   "license": "Apache-2.0",
   "author": {
@@ -37,19 +37,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-property": "^0.2.0",
-    "@stdlib/types": "^0.3.1",
-    "@stdlib/utils-keys-in": "^0.2.0"
+    "@stdlib/assert-has-property": "^0.2.1",
+    "@stdlib/types": "^0.3.2",
+    "@stdlib/utils-keys-in": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-empty-array": "^0.1.1",
-    "@stdlib/assert-is-string-array": "^0.1.1",
-    "@stdlib/math-base-special-pow": "^0.1.0",
-    "@stdlib/string-from-code-point": "^0.1.0",
+    "@stdlib/assert-is-empty-array": "^0.2.0",
+    "@stdlib/assert-is-string-array": "^0.2.0",
+    "@stdlib/math-base-special-pow": "^0.2.0",
+    "@stdlib/string-from-code-point": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.1.2"
+    "@stdlib/bench-harness": "^0.2.0"
   },
   "engines": {
     "node": ">=0.10.0",
