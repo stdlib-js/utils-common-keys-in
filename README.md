@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@deno/mod.js';
+import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@v0.2.2-deno/mod.js';
 ```
 
 #### commonKeysIn( obj1, obj2\[, obj3\[,...,objN]] )
@@ -96,7 +96,7 @@ var keys = commonKeysIn( obj, obj2 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@deno/mod.js';
+import commonKeysIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-common-keys-in@v0.2.2-deno/mod.js';
 
 function Foo() {
     this.beep = 'boop';
