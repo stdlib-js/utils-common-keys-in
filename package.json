@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-common-keys-in",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Return the common own and inherited property names of two or more objects.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-has-property": "^0.2.1",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/utils-keys-in": "^0.2.1"
+    "@stdlib/utils-keys-in": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-empty-array": "^0.2.1",
