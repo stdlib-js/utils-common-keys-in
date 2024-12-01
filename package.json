@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-has-property": "^0.2.2",
-    "@stdlib/types": "^0.4.1",
+    "@stdlib/types": "^0.4.3",
     "@stdlib/utils-keys-in": "^0.2.2"
   },
   "devDependencies": {
